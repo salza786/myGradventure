@@ -1,0 +1,10 @@
+MVC Project Key Files:
+
+Models>GradModel.cs
+Views>Gradventure.cshtml
+Controllers>HomeController.cs
+
+assets>css>gradStyle.css
+assets>js>gradScript.js
+
+Run the gradventure page: Home/Gradventure
