@@ -33,6 +33,86 @@
             float: right;
             margin: 10px;
         }
+        
+           .labelC {
+            background-image: url('../../Content/images/image3.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+
+              .labelD {
+            background-image: url('../../Content/images/image4.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: right;
+            margin: 10px;
+        }
+
+                 .labelE {
+            background-image: url('../../Content/images/image5.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+
+                    .labelF {
+            background-image: url('../../Content/images/image6.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: right;
+            margin: 10px;
+        }
+
+                       .labelG {
+            background-image: url('../../Content/images/image7.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+
+                          .labelH {
+            background-image: url('../../Content/images/image8.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: right;
+            margin: 10px;
+        }
+
+                             .labelI {
+            background-image: url('../../Content/images/image9.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+
+                                .labelJ {
+            background-image: url('../../Content/images/image10.JPG');
+            text-indent: -999em;
+            width: 250px;
+            height: 165px;
+            display: block;
+            float: right;
+            margin: 10px;
+        }
 
         input[type="radio"]:checked + label {
             border: 5px solid yellow;

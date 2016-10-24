@@ -33,5 +33,40 @@ namespace Gradventure.Controllers
 
             return View();
         }
+
+        public ActionResult Question1()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+        public ActionResult Question2()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+        public ActionResult Question3()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+        public ActionResult Question4()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+        public ActionResult Question5()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
     }
 }

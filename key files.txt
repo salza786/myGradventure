@@ -1,7 +1,12 @@
 MVC Project Key Files:
 
 Models>GradModel.cs
-Views>Gradventure.cshtml
+Views>Home>Gradventure.cshtml
+Views>Home>Question1.cshtml
+Views>Home>Question2.cshtml
+Views>Home>Question3.cshtml
+Views>Home>Question4.cshtml
+Views>Home>Question5.cshtml
 Controllers>HomeController.cs
 
 assets>css>gradStyle.css

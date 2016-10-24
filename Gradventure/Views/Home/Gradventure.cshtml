@@ -1,26 +1,39 @@
-﻿@using System.Web.Mvc.Html
-@using System.Web.UI.WebControls
-@model Gradventure.Models.GradModel
+﻿@model Gradventure.Models.GradModel
 @{
     ViewBag.Title = "Gradventure";
 }
 
 <head>
-    <link href="~/assets/css/gradStyle.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('../../Content/images/back.JPG');
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            margin: 0;
+        }
+
+        IMG.displayed {
+               display: block;
+               margin-left: auto;
+               margin-right: auto 
+        }
+
+    </style>
 </head>
 
 <body>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-<h1 align="center">START YOUR GRADVENTURE!</h1>
-    <br />
-    <div>
-        <div></div>
-        <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="label">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelB">Example 2</label>
-        </form>
-    </div>
-    <h2 align="center">Do you like careful planning or just getting stuck in?</h2>
+
+
+    <a href='@Url.Action("Question1", "Home")'>
+        <img src='@Url.Content("~/Content/images/logo.png")' align="right"/>
+    </a>
+
 </body>

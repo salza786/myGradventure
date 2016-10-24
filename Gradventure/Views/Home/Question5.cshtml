@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Question5";
+}
+
+<head>
+    <link href="~/assets/css/gradStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1 align="center">START YOUR GRADVENTURE!</h1>
+    <br />
+    <div>
+        <div></div>
+        <form action="#" method="post">
+            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
+            <label for="ex1" class="labelI">Example 1</label>
+            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
+            <label for="ex2" class="labelJ">Example 2</label>
+        </form>
+    </div>
+<h2 align="center">Having internationally important qualifications are important to me?</h2>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div>
+        <a href='@Url.Action("Question4", "Home")'>
+            <img src='@Url.Content("~/Content/images/prev.jpg")' height="30" width="85"/ align="left">
+        </a>
+
+        <a href='@Url.Action("Gradventure", "Home")'>
+            <img src='@Url.Content("~/Content/images/submit.jpg")' height="30" width="85"/ align="right">
+        </a>
+
+    </div>
+</body>
