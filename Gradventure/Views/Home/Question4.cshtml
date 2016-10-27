@@ -14,27 +14,21 @@
     <div>
         <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="labelG">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelH">Example 2</label>
+            <input type="radio" class="radio" name="choice" id="4a" value="4a" checked />
+            <label for="4a" class="label brand">brand</label>
+            <input type="radio" class="radio" name="choice" id="4b" value="4b" />
+            <label for="4b" class="label notNecessarily">notNecessarily</label>
         </form>
     </div>
-<h2 align="center">Do you aspire to work with a recognised brand?</h2>
+    <h2 align="center">Do you aspire to work with a recognised brand?</h2>
 
     <br />
     <br />
     <br />
     <br />
 
-    <div>
-        <a href='@Url.Action("Question5", "Home")'>
-            <img src='@Url.Content("~/Content/images/next.jpg")' height="30" width="65"/ align="right">
-        </a>
+    <button class="buttonA button1" onclick="window.location.href = '/Home/Question3'">< Previous</button>
+    <button class="buttonB button1" onclick="window.location.href = '/Home/Question5'">Next ></button>
 
-        <a href='@Url.Action("Question4", "Home")'>
-            <img src='@Url.Content("~/Content/images/prev.jpg")' height="30" width="85"/ align="left">
-        </a>
 
-    </div>
 </body>

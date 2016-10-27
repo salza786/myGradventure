@@ -14,10 +14,10 @@
     <div>
         <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="labelI">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelJ">Example 2</label>
+            <input type="radio" class="radio" name="choice" id="5a" value="5a" checked />
+            <label for="5a" class="label true">true</label>
+            <input type="radio" class="radio" name="choice" id="5b" value="5b" />
+            <label for="5b" class="label notNecessarily">notNecessarily</label>
         </form>
     </div>
 <h2 align="center">Having internationally important qualifications are important to me?</h2>
@@ -27,14 +27,6 @@
     <br />
     <br />
 
-    <div>
-        <a href='@Url.Action("Question4", "Home")'>
-            <img src='@Url.Content("~/Content/images/prev.jpg")' height="30" width="85"/ align="left">
-        </a>
-
-        <a href='@Url.Action("Gradventure", "Home")'>
-            <img src='@Url.Content("~/Content/images/submit.jpg")' height="30" width="85"/ align="right">
-        </a>
-
-    </div>
+    <button class="buttonA button1" onclick="window.location.href = '/Home/Question4'">< Previous</button>
+    <button class="buttonB button1" onclick="window.location.href = '/Home/Gradventure'">Submit! ></button>
 </body>

@@ -68,5 +68,27 @@ namespace Gradventure.Controllers
 
             return View();
         }
+
+        public ActionResult Marketing()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+
+        public ActionResult Technology()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
+
+        public ActionResult Finance()
+        {
+            ViewBag.Message = "Your gradventure page.";
+
+            return View();
+        }
     }
 }

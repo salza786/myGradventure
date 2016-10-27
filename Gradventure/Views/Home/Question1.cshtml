@@ -14,10 +14,10 @@
     <div>
         <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="label">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelB">Example 2</label>
+            <input type="radio" class="radio" name="choice" id="1a" value="1a" checked />
+            <label for="1a" class="label planning">planning</label>
+            <input type="radio" class="radio" name="choice" id="1b" value="1b" />
+            <label for="1b" class="label stuckIn">stuckIn</label>
         </form>
     </div>
 <h2 align="center">Do you like careful planning or just getting stuck in?</h2>
@@ -26,12 +26,6 @@
 <br/>
 <br/>
 <br/>
-
-<div>
-    <a href='@Url.Action("Question2", "Home")'>
-        <img src='@Url.Content("~/Content/images/next.jpg")' height="30" width="65"/ align="right">
-    </a>
-
-</div>
+    <button class="buttonB button1" onclick="window.location.href = '/Home/Question2'">Next ></button>
 
 </body>

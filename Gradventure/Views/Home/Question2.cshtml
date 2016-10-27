@@ -14,27 +14,20 @@
     <div>
         <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="labelC">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelD">Example 2</label>
+            <input type="radio" class="radio" name="choice" id="2a" value="2a" checked />
+            <label for="2a" class="label write">write</label>
+            <input type="radio" class="radio" name="choice" id="2b" value="2b" />
+            <label for="2b" class="label numbers">numbers</label>
         </form>
     </div>
-<h2 align="center">Would you rather write or work with numbers?</h2>
+    <h2 align="center">Would you rather write or work with numbers?</h2>
 
     <br />
     <br />
     <br />
     <br />
 
-    <div>
-        <a href='@Url.Action("Question3", "Home")'>
-            <img src='@Url.Content("~/Content/images/next.jpg")' height="30" width="65"/ align="right">
-        </a>
+    <button class="buttonA button1" onclick="window.location.href = '/Home/Question1'">< Previous</button>
+    <button class="buttonB button1" onclick="window.location.href = '/Home/Question3'">Next ></button>
 
-        <a href='@Url.Action("Question1", "Home")'>
-            <img src='@Url.Content("~/Content/images/prev.jpg")' height="30" width="85"/ align="left">
-        </a>
-
-    </div>
 </body>

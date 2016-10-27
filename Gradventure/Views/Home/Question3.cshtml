@@ -14,10 +14,10 @@
     <div>
         <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="example" id="ex1" value="ex1" checked />
-            <label for="ex1" class="labelE">Example 1</label>
-            <input type="radio" class="radio" name="example" id="ex2" value="ex2" />
-            <label for="ex2" class="labelF">Example 2</label>
+            <input type="radio" class="radio" name="choice" id="3a" value="3a" checked />
+            <label for="3a" class="label yes">yes</label>
+            <input type="radio" class="radio" name="choice" id="3b" value="3b" />
+            <label for="3b" class="label notNecessarily">notNecessarily</label>
         </form>
     </div>
 <h2 align="center">Do you like working with technology and computers?</h2>
@@ -27,14 +27,6 @@
     <br />
     <br />
 
-    <div>
-        <a href='@Url.Action("Question4", "Home")'>
-            <img src='@Url.Content("~/Content/images/next.jpg")' height="30" width="65"/ align="right">
-        </a>
-
-        <a href='@Url.Action("Question2", "Home")'>
-            <img src='@Url.Content("~/Content/images/prev.jpg")' height="30" width="85"/ align="left">
-        </a>
-
-    </div>
+    <button class="buttonA button1" onclick="window.location.href = '/Home/Question2'">< Previous</button>
+    <button class="buttonB button1" onclick="window.location.href = '/Home/Question4'">Next ></button>
 </body>

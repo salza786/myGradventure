@@ -1,120 +1,106 @@
-﻿         body {
-            background-color: rgb(30, 72, 140);
-        }
+﻿body {
+    background-color: rgb(30, 72, 140);
+}
 
-         h1, h2{
-             color:white;
-         }
+h1, h2 {
+    color: white;
+}
 
-         .radio {
-             opacity: 0;
-             position: absolute;
-             align-items: center;
-         }
+.radio {
+    opacity: 0;
+    position: absolute;
+    align-items: center;
+}
+
+.label {
+    text-indent: -999em;
+    width: 250px;
+    height: 165px;
+    display: block;
+    margin: 10px;
+}
 
 
 
-        .label {
-            background-image: url('../../Content/images/image.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: left;
-            margin: 10px;
-        }
 
-        .labelB {
-            background-image: url('../../Content/images/image2.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: right;
-            margin: 10px;
-        }
-        
-           .labelC {
-            background-image: url('../../Content/images/image3.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: left;
-            margin: 10px;
-        }
 
-              .labelD {
-            background-image: url('../../Content/images/image4.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: right;
-            margin: 10px;
-        }
+.planning {
+    background-image: url('../../Content/images/image.JPG');
+    float: left;
+}
 
-                 .labelE {
-            background-image: url('../../Content/images/image5.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: left;
-            margin: 10px;
-        }
+.stuckIn {
+    background-image: url('../../Content/images/image2.JPG');
+    float: right;
+}
 
-                    .labelF {
-            background-image: url('../../Content/images/image6.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: right;
-            margin: 10px;
-        }
+.write {
+    background-image: url('../../Content/images/image3.JPG');
+    float: left;
+}
 
-                       .labelG {
-            background-image: url('../../Content/images/image7.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: left;
-            margin: 10px;
-        }
+.numbers {
+    background-image: url('../../Content/images/image4.JPG');
+    float: right;
+}
 
-                          .labelH {
-            background-image: url('../../Content/images/image8.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: right;
-            margin: 10px;
-        }
+.yes {
+    background-image: url('../../Content/images/image5.JPG');
+    float: left;
+}
 
-                             .labelI {
-            background-image: url('../../Content/images/image9.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: left;
-            margin: 10px;
-        }
+.notNecessarily {
+    background-image: url('../../Content/images/image6.JPG');
+    float: right;
+}
 
-                                .labelJ {
-            background-image: url('../../Content/images/image10.JPG');
-            text-indent: -999em;
-            width: 250px;
-            height: 165px;
-            display: block;
-            float: right;
-            margin: 10px;
-        }
+.brand {
+    background-image: url('../../Content/images/image7.JPG');
+    float: left;
+}
 
-        input[type="radio"]:checked + label {
-            border: 5px solid yellow;
-        }
-    
+
+.true {
+    background-image: url('../../Content/images/image9.JPG');
+    float: left;
+}
+
+
+
+
+.buttonA {
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.buttonB {
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    float: right;
+}
+
+.button1:hover {
+    box-shadow: 0 10px 20px 0 orange;
+}
+
+
+
+
+input[type="radio"]:checked + label {
+    border: 5px solid yellow;
+}
