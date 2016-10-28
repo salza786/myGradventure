@@ -12,6 +12,38 @@ h1, h2 {
     align-items: center;
 }
 
+input[type="radio"]:checked + label {
+    border: 5px solid yellow;
+}
+
+.main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+
+.fixer-container {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
+body {
+  color: white;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+
 .label {
     text-indent: -999em;
     width: 250px;
@@ -19,8 +51,6 @@ h1, h2 {
     display: block;
     margin: 10px;
 }
-
-
 
 
 
@@ -98,9 +128,10 @@ h1, h2 {
     box-shadow: 0 10px 20px 0 orange;
 }
 
+.text-glow-hover{
+color: white;
+}
 
-
-
-input[type="radio"]:checked + label {
-    border: 5px solid yellow;
+.text-glow-hover:hover{
+text-shadow: 0 0 20px yellow;
 }
