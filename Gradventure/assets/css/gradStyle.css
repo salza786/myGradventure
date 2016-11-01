@@ -44,10 +44,11 @@ a {
 
 
 
+
 .label {
     text-indent: -999em;
-    width: 250px;
-    height: 165px;
+    width: 280px;
+    height: 198px;
     display: block;
     margin: 10px;
 }
@@ -55,43 +56,43 @@ a {
 
 
 .planning {
-    background-image: url('../../Content/images/image.JPG');
+    background-image: url('../../Content/images/planningButton.png');
     float: left;
 }
 
 .stuckIn {
-    background-image: url('../../Content/images/image2.JPG');
+    background-image: url('../../Content/images/stuckInButton.png');
     float: right;
 }
 
 .write {
-    background-image: url('../../Content/images/image3.JPG');
+    background-image: url('../../Content/images/writeButton.png');
     float: left;
 }
 
 .numbers {
-    background-image: url('../../Content/images/image4.JPG');
+    background-image: url('../../Content/images/numbersButton.png');
     float: right;
 }
 
 .yes {
-    background-image: url('../../Content/images/image5.JPG');
+    background-image: url('../../Content/images/yesButton.png');
     float: left;
 }
 
 .notNecessarily {
-    background-image: url('../../Content/images/image6.JPG');
+    background-image: url('../../Content/images/notNecessarilyButton.png');
     float: right;
 }
 
 .brand {
-    background-image: url('../../Content/images/image7.JPG');
+    background-image: url('../../Content/images/yesBrandButton.png');
     float: left;
 }
 
 
 .true {
-    background-image: url('../../Content/images/image9.JPG');
+    background-image: url('../../Content/images/trueButton.png');
     float: left;
 }
 
