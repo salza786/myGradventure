@@ -1,9 +1,4 @@
-﻿
-@{
-    ViewBag.Title = "Question2";
-}
-
-<head>
+﻿<head>
     <link href="~/assets/css/gradStyle.css" rel="stylesheet" />
 
     <style>
@@ -46,14 +41,15 @@
     <br />
 
     <div>
-        <div></div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="choice" id="2a" value="2a" checked />
+            <input type="radio" class="radio" name="choice" id="2a" value="2a" onclick="window.location.href = '/Home/Question3'" />
             <label for="2a" class="label write">write</label>
-            <input type="radio" class="radio" name="choice" id="2b" value="2b" />
+            <input type="radio" class="radio" name="choice" id="2b" value="2b" onclick="window.location.href = '/Home/Question3'" />
             <label for="2b" class="label numbers">numbers</label>
         </form>
     </div>
+
+    <br>
     <h2 align="center">Would you rather write or work with numbers?</h2>
 
     <br />
@@ -61,7 +57,9 @@
     <br />
     <br />
 
-    <button class="buttonA button1" onclick="window.location.href = '/Home/Question1'">< Previous</button>
-    <button class="buttonB button1" onclick="window.location.href = '/Home/Question3'">Next ></button>
+
+    
+                <button class="buttonA button1" onclick="window.location.href = '/Home/Question1'"> Previous </button>
+        
 
 </body>

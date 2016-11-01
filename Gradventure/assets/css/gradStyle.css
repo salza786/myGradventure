@@ -30,16 +30,17 @@ input[type="radio"]:checked + label {
 }
 
 a {
-  color: white;
-  text-decoration: none; /* no underline */
+    color: white;
+    text-decoration: none; /* no underline */
 }
 
 body {
-  color: white;
+    color: white;
 }
+
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
 }
 
 
@@ -98,8 +99,18 @@ a {
 
 
 
-
 .buttonA {
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    margin: auto;
+    display: block;
+}
+
+.buttonB {
     background-color: blue;
     color: white;
     padding: 15px 32px;
@@ -114,7 +125,7 @@ a {
     overflow: auto;
 }
 
-.buttonB {
+.buttonC {
     background-color: blue;
     color: white;
     padding: 15px 32px;
@@ -129,10 +140,10 @@ a {
     box-shadow: 0 10px 20px 0 orange;
 }
 
-.text-glow-hover{
-color: white;
+.text-glow-hover {
+    color: white;
 }
 
-.text-glow-hover:hover{
-text-shadow: 0 0 20px yellow;
-}
+    .text-glow-hover:hover {
+        text-shadow: 0 0 20px yellow;
+    }
