@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+    <script src="~/assets/js/gradScript.js"></script>
     <div class="main-container">
         <div class="fixer-container">
             <div class="text-glow-hover">
@@ -41,9 +41,11 @@
 
     <div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="choice" id="3a" value="3a" onclick="window.location.href = '/Home/Question4'" />
+            <input id="3a" TYPE="radio" class="radio" NAME="a" VALUE=1 onclick="window.location.href = '/Home/Question4'; weightingScore(1,3,0,3)">
             <label for="3a" class="label yes">yes</label>
-            <input type="radio" class="radio" name="choice" id="3b" value="3b" onclick="window.location.href = '/Home/Question4'" />
+
+
+            <input id="3b" TYPE="radio" class="radio" NAME="a" VALUE=2 onclick="window.location.href = '/Home/Question4'; weightingScore(2,-5,2,3)">
             <label for="3b" class="label notNecessarily">notNecessarily</label>
         </form>
     </div>

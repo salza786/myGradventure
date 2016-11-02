@@ -18,6 +18,8 @@
 </head>
 
 <body>
+    
+    <script src="~/assets/js/gradScript.js"></script>
 
     <div class="main-container">
         <div class="fixer-container">
@@ -41,9 +43,10 @@
 
     <div>
         <form action="#" method="post">
-            <input type="radio" class="radio" name="choice" id="1a" value="1a" onclick="window.location.href = '/Home/Question2'" />
+            <input id="1a" TYPE="radio" class="radio" NAME="a" VALUE=1 onclick="window.location.href = '/Home/Question2'; weightingScore(1, 0, 3, 1);">
             <label for="1a" class="label planning">planning</label>
-            <input type="radio" class="radio" name="choice" id="1b" value="1b" onclick="window.location.href = '/Home/Question2'" />
+
+            <input id="1b" TYPE="radio" class="radio" NAME="a" VALUE=2 onclick="window.location.href = '/Home/Question2'; weightingScore(2, 3, 0, 1);">
             <label for="1b" class="label stuckIn">stuckIn</label>
         </form>
     </div>
